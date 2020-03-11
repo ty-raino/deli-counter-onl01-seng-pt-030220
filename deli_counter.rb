@@ -3,3 +3,4 @@ def line(deli)
   if line.empty?
     "The line is currently empty."
   end
+end
