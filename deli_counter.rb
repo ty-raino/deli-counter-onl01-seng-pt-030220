@@ -17,10 +17,10 @@ def take_a_number(deli, name)
 end
 
 def now_serving(line)
-  if deli.empty?
+  if line.empty?
     puts "There is nobody waiting to be served!"
   else
-    puts "Currently serving #{deli.first}."
-    deli.shift
+    puts "Currently serving #{line.first}."
+    line.shift
   end
 end
